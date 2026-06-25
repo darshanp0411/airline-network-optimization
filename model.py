@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # 1. SETUP: Install Libraries & Unzip Data
-!pip install streamlit pyngrok plotly pandas scikit-learn -q
+pip install streamlit pyngrok plotly pandas scikit-learn -q
 
 import os
 import zipfile
