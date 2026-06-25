@@ -269,7 +269,7 @@ from pyngrok import ngrok
 ngrok.set_auth_token("3FdSOw2WydY3fbyYVd5hcJE2bp6_2e8fNxp5nTzBSjBappfoT")
 
 # Kill old servers
-!fuser -k 8501/tcp
+#!fuser -k 8501/tcp
 
 # Start new server
 get_ipython().system_raw('streamlit run app.py &')
