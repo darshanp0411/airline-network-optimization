@@ -267,7 +267,7 @@ import sys
 from pyngrok import ngrok
 
 # ⚠️ PASTE YOUR NGROK TOKEN HERE
-ngrok.set_auth_token("37P7LKlsdAo14e6rtx2FkmqzTna_2mJdb1guYtckwgAFJ8okG")
+ngrok.set_auth_token("3FdSOw2WydY3fbyYVd5hcJE2bp6_2e8fNxp5nTzBSjBappfoT")
 
 # Kill old servers
 !fuser -k 8501/tcp
